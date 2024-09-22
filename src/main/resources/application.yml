@@ -1,0 +1,20 @@
+# MongoDB Configuration
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://admin:1234@mariaenriqueta.f47y4yu.mongodb.net/vg-ms-mariaenriqueta?retryWrites=true&w=majority"
+
+# Firebase Configuration
+firebase:
+  admin:
+    sdk:
+      path: "C:/Users/User/Downloads/firebase-service-account.json"
+
+server:
+  port: 9090
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.reactive.function.client: DEBUG
+
